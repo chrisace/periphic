@@ -1,0 +1,24 @@
+:root {
+	--cream: #CDBEAC;
+	--dark1: #2D2B2A;
+	--dark2: #3F3D3C;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+html {
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--cream);
+}
+body {
+	background: var(--dark2);
+
+}
