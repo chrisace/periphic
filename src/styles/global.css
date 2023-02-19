@@ -1,8 +1,22 @@
 :root {
-	--cream: #CDBEAC;
+	--cream1: #CDBEAC;
+	--cream2: beige;
 	--dark1: #2D2B2A;
 	--dark2: #3F3D3C;
+
+	--bg1: var(--cream1);
+	--bg2: var(--cream2);
+	--text1: var(--dark1);
+	
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+		--bg1: var(--dark1);
+		--bg2: var(--dark2);
+		--text1: var(--cream1);
+	}
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -16,9 +30,8 @@ html {
 	font-family: sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
-	color: var(--cream);
+	color: var(--text1);
 }
 body {
-	background: var(--dark2);
-
+	background: var(--bg1);
 }
