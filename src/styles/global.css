@@ -7,6 +7,7 @@
 	--bg1: var(--cream1);
 	--bg2: var(--cream2);
 	--text1: var(--dark1);
+	--font1: 'Nunito', sans-serif;
 	
 }
 @media (prefers-color-scheme: dark) {
@@ -27,10 +28,10 @@
 	box-sizing: inherit;
 }
 html {
-	font-family: sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	color: var(--text1);
+	font-family: var(--font1);
 }
 body {
 	background: var(--bg1);
